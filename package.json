@@ -1,0 +1,17 @@
+{
+  "name": "coding-ladinpage-using-tailwindcss",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind:watch": "tailwindcss -i assets/css/main.css -o style.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.9"
+  }
+}
