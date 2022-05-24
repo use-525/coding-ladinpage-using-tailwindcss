@@ -19,7 +19,15 @@ module.exports = {
     colors: {
       'primary': "#FF5300",
       'secondary': "#FFF7F4",
-      'colors-text': "#373737"
+      'colors-text': "#373737",
+      'colors-gray': "#7B7B7B"
+    },
+    screens: {
+      sm: '600px',
+      md: '728px',
+      lg: '984px',
+      xl: '1170px',
+      '2xl': '1496px',
     },
   },
   plugins: [
